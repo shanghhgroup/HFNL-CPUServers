@@ -1,8 +1,8 @@
-title: "ShangGroup 计算服务器公开说明"
-subtitle: "ShangGroup Computing Server Public Handbook"
+title: "ShangGroup HFNL CPU计算服务器说明"
+subtitle: "ShangGroup HFNL CPU Computing Server Public Handbook"
 email:
 description: >-
-  ShangGroup 实验室计算服务器公开介绍：科研计算用途、账号申请、作业提交、数据管理和常见问题。
+  ShangGroup HFNL CPU计算服务器介绍：科研计算用途、账号申请、作业提交、数据管理和常见问题。
 
 minimal_mistakes_skin: default
 search: true
@@ -42,7 +42,7 @@ atom_feed:
 author:
   name: "ShangGroup"
   avatar: "/HFNL-CPUServers/assets/images/lab_logo.png"
-  bio: "计算服务器公开使用说明"
+  bio: "计算服务器使用说明"
   links:
     - label: "服务器主页"
       icon: "fa-solid fa-server"
