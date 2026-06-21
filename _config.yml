@@ -1,0 +1,79 @@
+title: "ShangGroup 计算服务器公开说明"
+subtitle: "ShangGroup Computing Server Public Handbook"
+email:
+description: >-
+  ShangGroup 实验室计算服务器公开介绍：科研计算用途、账号申请、作业提交、数据管理和常见问题。
+
+minimal_mistakes_skin: default
+search: true
+
+markdown: kramdown
+remote_theme: "mmistakes/minimal-mistakes@4.28.0"
+
+# 当前压缩包按 GitHub 项目仓库 HFNL-CPUServers 配置。
+# 如果你的仓库名改为 username.github.io，请把 baseurl 改成空字符串：baseurl: ""
+url: "https://shanghhgroup.github.io"
+baseurl: "/HFNL-CPUServers"
+
+permalink: /:categories/:title/
+paginate: 5
+paginate_path: /page:num/
+
+lang: zh-CN
+locale: "zh_CN"
+timezone: "Asia/Shanghai"
+date_format: "%Y年%m月%d日"
+
+include:
+  - _pages
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+  - jekyll-remote-theme
+
+atom_feed:
+  hide: true
+
+author:
+  name: "ShangGroup"
+  avatar: "/HFNL-CPUServers/assets/images/lab_logo.png"
+  bio: "计算服务器公开使用说明"
+  links:
+    - label: "服务器主页"
+      icon: "fa-solid fa-server"
+      url: "/HFNL-CPUServers/"
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: false
+      related: true
+      toc: true
+      toc_sticky: true
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      toc: true
+      toc_sticky: true
+
+category_archive:
+  type: liquid
+  path: /categories/
+
+tag_archive:
+  type: liquid
+  path: /tags/
